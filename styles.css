@@ -1,1 +1,84 @@
 /* your code here */
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #78C841;
+}
+
+li{
+	list-style-type: none;
+}
+
+.product{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius:12px;
+}
+
+.product__photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	margin: 10px;
+	padding:20px;
+	background-color: #B4E50D;
+	border-radius: 10px 10px 0 0;
+	z-index: 1000;
+}
+
+.photo-container{}
+
+.photo-main{}
+
+.photo-main img{
+	width: 200px;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.photo-album{
+	padding: 5px;
+	margin-bottom: 0;
+	background-color: white;
+	border-radius: 0 0 10px 10px;
+}
+
+.photo-album ul{
+	display: flex;
+	gap: 10px;
+}
+
+.photo-album ul li{
+	border: 1px solid #DEE8CE;
+}
+
+.product__info{
+	padding: 5px;
+}
+
+.title{}
+
+.price{}
+
+.variant ul{
+	display: flex;
+}
+
+.description{}
+
+button{
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	background-color: #FB4141;
+}
